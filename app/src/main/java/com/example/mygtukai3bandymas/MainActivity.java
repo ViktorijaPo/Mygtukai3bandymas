@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
         Button Mixer = findViewById(R.id.btnChange);
         Button Chameleon = findViewById(R.id.btnChangeCol);
 
-        Mixer.setOnClickListener(v -> myText.setText("Labas Pasauli!"));
+
+        Mixer.setOnClickListener(v -> myText.setText("Never gonna let you down"));
         Chameleon.setOnClickListener(v -> myText.setTextColor(Color.parseColor("#9F2B68")));
 
 
